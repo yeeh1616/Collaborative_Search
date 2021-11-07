@@ -158,6 +158,7 @@ export default class SearchResultsContainer extends React.Component {
     }
 
     render() {
+        //console.log("results: " + this.state.results);
         let postflag =localStorage.getItem("post-test") || 0;
         return <div>
             {postflag === 0 &&

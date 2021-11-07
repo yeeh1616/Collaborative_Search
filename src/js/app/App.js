@@ -6,6 +6,7 @@ import history from './History';
 
 import About from './pages/About';
 import Search from './search/Search';
+import Search2 from './search/Search2';
 
 import SimpleRegister from './tasks/example-simple/Register';
 import SimpleSubmit from './tasks/example-simple/Submit';
@@ -38,6 +39,8 @@ import RoleBasedDescription from './tasks/role-based/TaskDescription';
 import RoleBasedDescriptionShort from './tasks/role-based/TaskDescriptionShort';
 import RoleBasedPostTest from './tasks/role-based/PostTest';
 import Chat from './search/features/chat/Chat';
+
+
 export class App extends React.Component {
 
     render() {
@@ -75,6 +78,7 @@ export class App extends React.Component {
                     <Route exact path="/" component={About}/>
                     <Route exact path="/about" component={About}/>
                     <Route path="/search" component={Search}/>
+                    <Route path="/search2" component={Search2}/>
                     <Route path="/chat" component={Chat}/>
 
                     <Route exact path="/simple" component={SimpleRegister}/>

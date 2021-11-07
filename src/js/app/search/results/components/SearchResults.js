@@ -36,6 +36,7 @@ const SearchResults = function ({
         color: "darkgray"
     };
 
+    //console.log("[/SearchResults.js]searchState.query: " + searchState.query);
     if (searchState.query === '' && results.length === 0) {
         return <CenteredMessage height="800px" style={style}>
             <h3> Your search results will appear here :) </h3>

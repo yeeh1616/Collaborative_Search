@@ -21,6 +21,8 @@ const CHANGE_EVENT = 'change_search';
 
 ////
 
+console.log("------ Helpers.getURLParameter('provider'): " + Helpers.getURLParameter('provider'));
+console.log("------ config.defaultProvider: " + config.defaultProvider);
 const provider = Helpers.getURLParameter('provider') || config.defaultProvider;
 
 
